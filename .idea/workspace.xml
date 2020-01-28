@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fe75c90-115f-4767-b49c-c632e08b01f3" name="Default Changelist" comment="">
+    <list default="true" id="5fe75c90-115f-4767-b49c-c632e08b01f3" name="Default Changelist" comment="HTML学习">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/下载.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text6_表格标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/text6_表格标签.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text7_实例.html" beforeDir="false" afterPath="$PROJECT_DIR$/text7_实例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text1_文本标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1_文本标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text6_表格标签.html" beforeDir="false" afterPath="$PROJECT_DIR$/test6_表格标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text7_实例.html" beforeDir="false" afterPath="$PROJECT_DIR$/test7_实例.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,10 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/text7_实例.html">
+        <entry file="file://$PROJECT_DIR$/test7_实例.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="132">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
               <folding>
                 <element signature="n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" />
@@ -31,27 +31,11 @@
                 <element signature="n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#tr#4;n#table#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#tr#5;n#table#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#2845#2850#1" expanded="true" />
-                <element signature="e#3113#3118#0" expanded="true" />
-                <element signature="e#3377#3382#0" expanded="true" />
-                <element signature="e#3641#3646#0" expanded="true" />
                 <element signature="n#tr#6;n#table#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#tr#7;n#table#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#4478#4483#0" expanded="true" />
-                <element signature="e#4753#4758#0" expanded="true" />
-                <element signature="e#5028#5033#0" expanded="true" />
-                <element signature="e#5355#5360#0" expanded="true" />
-                <element signature="e#5630#5635#0" expanded="true" />
-                <element signature="e#5905#5910#0" expanded="true" />
                 <element signature="n#tr#8;n#table#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#td#0;n#tr#8;n#table#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#tr#9;n#table#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#6702#6707#0" expanded="true" />
-                <element signature="e#6978#6983#0" expanded="true" />
-                <element signature="e#7254#7259#0" expanded="true" />
-                <element signature="e#7582#7587#0" expanded="true" />
-                <element signature="e#7858#7863#0" expanded="true" />
-                <element signature="e#8125#8130#0" expanded="true" />
                 <element signature="n#tr#10;n#table#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#tr#11;n#table#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -97,6 +81,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -109,7 +94,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,7 +137,8 @@
       <workItem from="1579779475407" duration="1492000" />
       <workItem from="1580051472551" duration="3201000" />
       <workItem from="1580106860642" duration="9176000" />
-      <workItem from="1580169127254" duration="14404000" />
+      <workItem from="1580169127254" duration="15978000" />
+      <workItem from="1580214677728" duration="703000" />
     </task>
     <task id="LOCAL-00001" summary="HTML学习">
       <created>1579773319040</created>
@@ -190,16 +175,23 @@
       <option name="project" value="LOCAL" />
       <updated>1580143907534</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HTML学习">
+      <created>1580200858751</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1580200858751</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38402000" />
+    <option name="totallyTimeSpent" value="40679000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.122654155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12399464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -365,7 +357,7 @@
     <entry file="file://$PROJECT_DIR$/图标/call-stop.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/text6_表格标签.html">
+    <entry file="file://$PROJECT_DIR$/test6_表格标签.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
@@ -400,17 +392,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text1_文本标签.html">
+    <entry file="file://$PROJECT_DIR$/test1_文本标签.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="26" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text7_实例.html">
+    <entry file="file://$PROJECT_DIR$/test7_实例.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="132">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding>
             <element signature="n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" />
@@ -418,27 +410,11 @@
             <element signature="n#tr#3;n#table#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#tr#4;n#table#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#tr#5;n#table#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#2845#2850#1" expanded="true" />
-            <element signature="e#3113#3118#0" expanded="true" />
-            <element signature="e#3377#3382#0" expanded="true" />
-            <element signature="e#3641#3646#0" expanded="true" />
             <element signature="n#tr#6;n#table#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#tr#7;n#table#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#4478#4483#0" expanded="true" />
-            <element signature="e#4753#4758#0" expanded="true" />
-            <element signature="e#5028#5033#0" expanded="true" />
-            <element signature="e#5355#5360#0" expanded="true" />
-            <element signature="e#5630#5635#0" expanded="true" />
-            <element signature="e#5905#5910#0" expanded="true" />
             <element signature="n#tr#8;n#table#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#td#0;n#tr#8;n#table#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#tr#9;n#table#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#6702#6707#0" expanded="true" />
-            <element signature="e#6978#6983#0" expanded="true" />
-            <element signature="e#7254#7259#0" expanded="true" />
-            <element signature="e#7582#7587#0" expanded="true" />
-            <element signature="e#7858#7863#0" expanded="true" />
-            <element signature="e#8125#8130#0" expanded="true" />
             <element signature="n#tr#10;n#table#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#tr#11;n#table#0;n#body#0;n#html#0;n#!!top" />
           </folding>
