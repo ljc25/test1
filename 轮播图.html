@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+    <script>
+    var number = 1;
+    function fun() {
+        number++;
+        if(number > 4)
+            number = 1;
+        var img1 = document.getElementById('add1');
+        img1.src="./image/lunbo" + number +".jpg";
+    }
+    setInterval(fun,3000);
+</script>
+</head>
+<body>
+    <img id="add1" src="./image/lunbo1.jpg" width="100%">
+</body>
+</html>
