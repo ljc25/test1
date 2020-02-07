@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动态表格</title>
+    <style>
+        div{
+            text-align: center;
+            margin:50px;
+        }
+        table{
+            border: 1px solid;
+            margin: auto;
+            width: 500px;
+        }
+        th,td{
+            border: 1px solid;
+            text-align: center;
+        }
+
+        .dv1{
+            border: 1px solid;
+            width: 100px;
+            height: 100px;
+        }
+
+        .over{
+            background-color: pink;
+        }
+
+        .move{
+            background-color: white;
+        }
+    </style>
+    <script>
+        //1、在页面加载完后绑定事件
+        window.onload = function()
+        {
+            document.getElementById("selectall").onclick=function(){
+                var cbs = document.getElementsByName("cb");
+                for(var i =0;i<cbs.length;i++)
+                    cbs[i].checked=true;
+            }
+            document.getElementById("unselectall").onclick=function(){
+                var cbs = document.getElementsByName("cb");
+                for(var i =0;i<cbs.length;i++)
+                    cbs[i].checked=false;
+            }
+            document.getElementById("selectrev").onclick=function(){
+                var cbs = document.getElementsByName("cb");
+                for(var i =0;i<cbs.length;i++)
+                    cbs[i].checked=!cbs[i].checked;
+            }
+            document.getElementById("first").onclick=function(){
+                var cbs = document.getElementsByName("cb");
+                for(var i =0;i<cbs.length;i++)
+                    cbs[i].checked=this.checked;
+            }
+
+            //给所有tr绑定鼠标事件
+            var trs = document.getElementsByTagName("tr");
+
+            for(var i =0;i<trs.length;i++)
+            {
+                trs[i].onmouseover = function(){
+                    this.className = "over";
+                }
+                trs[i].onmouseout = function(){
+                    this.className = "move";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<!-- <div>
+    <input type="text" id="id" placeholder="请输入编号">
+    <input type="text" id="name" placeholder="请输入姓名">
+    <input type="text" id="sex" placeholder="请输入性别">
+    <input type="button" id="btn" value="添加">
+</div> -->
+<table>
+    <caption>学生信息表</caption>
+    <tr>
+        <td><input type="checkbox" name="cb" id="first"></input>
+        <th>编号</th>
+        <th>姓名</th>
+        <th>性别</th>
+        <th>操作</th>
+    </tr>
+    <tr>
+        <td><input type="checkbox" name="cb"></input>
+        <td>4</td>
+        <td>李四</td>
+        <td>男</td>
+        <td><a href="javascript:void(0)" onclick="del(this);">删除</a></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" name="cb"></input>
+        <td>3</td>
+        <td>张三</td>
+        <td>女</td>
+        <td><a href="javascript:void(0)" onclick="del(this);">删除</a></td>
+    </tr>
+    <tr>
+        <td><input type="checkbox" name="cb"></input>
+        <td>5</td>
+        <td>王五</td>
+        <td>男</td>
+        <td><a href="javascript:void(0)" onclick="del(this);">删除</a></td>
+    </tr>
+</table>
+<input type="button" id="selectall" value="全选">
+<input type="button" id="unselectall" value="全不选">
+<input type="button" id="selectrev" value="反选">
+<script>
+
+</script>
+</body>
+</html>

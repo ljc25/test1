@@ -17,6 +17,12 @@
             border: 1px solid;
             text-align: center;
         }
+
+        .dv1{
+            border: 1px solid;
+            width: 100px;
+            height: 100px;
+        }
     </style>
 
 </head>
@@ -62,7 +68,7 @@
         var name = document.getElementById("name").value;
         var sex = document.getElementById("sex").value;
 
-        //3、创建了td
+        /*//3、创建了td
         var td_id = document.createElement("td");
         var text_id = document.createTextNode(id);
         td_id.appendChild(text_id);
@@ -89,11 +95,21 @@
         tr.appendChild(td_id);
         tr.appendChild(td_name);
         tr.appendChild(td_sex);
-        tr.appendChild(td_btn);
+        tr.appendChild(td_btn);*/
 
         //6、获取table
         var table = document.getElementsByTagName("table")[0];
-        table.appendChild(tr);
+        //table.appendChild(tr);
+
+        //追加一行
+        table.innerHTML += "<tr>\n" +
+            "        <td>"+id+"</td>\n" +
+            "        <td>"+name+"</td>\n" +
+            "        <td>"+sex+"</td>\n" +
+            "        <td><a href=\"javascript:void(0)\" onclick=\"del(this);\">删除</a></td>\n" +
+            "    </tr>";
+
+
     }
 
     function del(obj){
@@ -101,6 +117,8 @@
         var tr = obj.parentNode.parentNode;
         table.removeChild(tr);
     }
+
+
 </script>
 </body>
 </html>
