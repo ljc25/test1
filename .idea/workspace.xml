@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fe75c90-115f-4767-b49c-c632e08b01f3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xml学习/dtd/student.dtd" beforeDir="false" afterPath="$PROJECT_DIR$/xml学习/dtd/student.dtd" afterDir="false" />
-    </list>
+    <list default="true" id="5fe75c90-115f-4767-b49c-c632e08b01f3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +179,7 @@
       <workItem from="1581245781949" duration="6593000" />
       <workItem from="1581258390120" duration="235000" />
       <workItem from="1581298880431" duration="1163000" />
-      <workItem from="1581317899583" duration="1423000" />
+      <workItem from="1581317899583" duration="2076000" />
     </task>
     <task id="LOCAL-00001" summary="HTML学习">
       <created>1579773319040</created>
@@ -380,16 +377,23 @@
       <option name="project" value="LOCAL" />
       <updated>1581258567540</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="JavaWeb学习">
+      <created>1581320073960</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1581320073960</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155646000" />
+    <option name="totallyTimeSpent" value="156299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11997319" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14075068" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
